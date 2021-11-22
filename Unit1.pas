@@ -25,10 +25,10 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-if MessageDlg('Welcome to my Delphi application.  Exit now?',
+if MessageDlg('Witamy w aplikacji Delphi.  Koñczymy?',
     mtConfirmation, [mbYes, mbNo], 0, mbYes) = mrYes then
   begin
-    MessageDlg('Exiting the Delphi application.', mtInformation,
+    MessageDlg('Zamykamy aplikacjê.', mtInformation,
       [mbOk], 0, mbOk);
     Close;
   end;
